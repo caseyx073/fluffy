@@ -3,4 +3,7 @@ class DogsController < ApplicationController
 
   end
 
+  def index
+
+  end
 end
