@@ -10,6 +10,8 @@ Rails.application.routes.draw do
  
   resource :pet, only: [:new]
 
+  resource :dashboard, only: [:new]
+
   resource :pet_listing, only: [:new]
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
